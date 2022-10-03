@@ -109,7 +109,6 @@ let reset = () => {
     obstacle2.x = 24 + (Math.random() * (canvas.width - 48));
     obstacle2.y = 24 + (Math.random() * (canvas.height - 48));
 
-    monsterCaught = 0;
 }
 
 // Update game objects
