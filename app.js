@@ -156,6 +156,7 @@ let update = (modifier) => {
 		&& hero.y <= (obstacle.y + 30)
 		&& obstacle.y <= (hero.y + 30)
 	) {
+        monsterCaught = 0;
 		reset();
     }
 
@@ -165,6 +166,7 @@ let update = (modifier) => {
 		&& hero.y <= (obstacle1.y + 17)
 		&& obstacle1.y <= (hero.y + 17)
 	) {
+        monsterCaught = 0;
 		reset();
     }
 
@@ -174,6 +176,7 @@ let update = (modifier) => {
 		&& hero.y <= (obstacle2.y + 24)
 		&& obstacle2.y <= (hero.y + 24)
 	) {
+        monsterCaught = 0;
 		reset();
     }
 };
